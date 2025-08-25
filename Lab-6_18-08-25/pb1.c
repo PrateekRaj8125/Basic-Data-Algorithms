@@ -4,7 +4,7 @@
 
 struct person {
     int id;
-    char name[50];
+    char *name;
     int age;
     int height;
     int weight; // in pounds
@@ -115,7 +115,10 @@ int main() {
             fscanf(fp, "%d", &n); // first line contains count
             arr = malloc(n * sizeof(struct person));
             for (int i = 0; i < n; i++) {
-                fscanf(fp, "%d %s %d %d %d", &arr[i].id, arr[i].name, &arr[i].age, &arr[i].height, &arr[i].weight);
+                char temp[100];
+                fscanf(fp, "%d %s %d %d %d", &arr[i].id, temp, &arr[i].age, &arr[i].height, &arr[i].weight);
+                arr[i].name = malloc(strlen(temp) + 1);
+                strcpy(arr[i].name, temp);
             }
             fclose(fp);
             printf("Data read successfully.\n");
