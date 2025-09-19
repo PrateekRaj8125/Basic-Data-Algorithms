@@ -1,3 +1,4 @@
+// Write a C program to input and display a name
 #include<stdio.h>
 #include<string.h>
 void main(){

@@ -1,3 +1,4 @@
+// Write a C program to perform basic arithmetic operations (add, subtract, multiply, divide, remainder) on two numbers using a switch statement.
 #include<stdio.h>
 void main(){
     int a,b,ch;

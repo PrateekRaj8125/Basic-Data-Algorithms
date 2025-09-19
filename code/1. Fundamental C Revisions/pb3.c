@@ -1,4 +1,4 @@
-//sum of any elements from any array
+// Write a C program to input two arrays, then compute the sum of selected elements based on user choice using a switch statement.
 #include<stdlib.h>
 #include<stdio.h>
 void main(){

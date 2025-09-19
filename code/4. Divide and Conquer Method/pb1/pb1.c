@@ -1,8 +1,7 @@
 /*
-3.1 Aim of the program: Write a menu driven program to sort list of array elements using Merge
-Sort technique and calculate the execution time only to sort the elements. Count the number of
-comparisons.
-Note#
+Write a menu driven program to sort list of array elements using MergeSort technique and calculate the execution time only to sort the elements.
+Count the number of comparisons.
+# Note:
 ● To calculate execution time, assume that single program is under execution in the CPU.
 ● Number of elements in each input file should vary from 300 to 500 entries.
 ● For ascending order: Read data from a file “inAsce.dat” having content 10 20 30 40.....,
@@ -18,6 +17,7 @@ MAIN MENU (MERGE SORT)
 2. Descending Data
 3. Random Data
 4. ERROR (EXIT)
+
 Output:
 Enter option: 1
 Before Sorting: Content of the input file
@@ -25,6 +25,7 @@ After Sorting: Content of the output file
 Number of Comparisons: Actual
 Execution Time: lapse time in nanosecond
 */
+
 #define _POSIX_C_SOURCE 199309L
 #include <string.h>
 #include <stdio.h>

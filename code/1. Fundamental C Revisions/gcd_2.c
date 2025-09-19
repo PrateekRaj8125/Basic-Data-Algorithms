@@ -1,3 +1,4 @@
+// Write a C program to find the GCD (Greatest Common Divisor) of two numbers using iteration (Euclidean algorithm).
 #include<stdio.h>
 int gcd(int a, int b){
     while(b!=0){
