@@ -26,7 +26,7 @@ You can contribute in several ways:
 │ └─── [5. Heap](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/tree/main/code/5.%20Heap)  
 │─── [docs](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/tree/main/docs)  
 │ │─── [Security Policy](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/blob/main/docs/SECURITY.md)  
-│ └─── [CONTRIBUTING](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/blob/main/docs/CONTRIBUTING.md)  
+│ │─── [CONTRIBUTING](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/blob/main/docs/CONTRIBUTING.md)  
 │ └─── [CODE OF CONDUCT](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/blob/main/docs/CODE_OF_CONDUCT.md)  
 │─── [LICENSE](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/blob/main/LICENSE.md)  
 │─── [README](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/blob/main/README.md)  
