@@ -8,7 +8,7 @@ This folder contains a **menu-driven C program** that demonstrates the implement
 
 | Topic | Solution | Description |
 |---|---|---|
-| Heap Operations on Student Records | [heap.c](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/blob/main/code/5.%20Heap/pb1.c) . [data.txt](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/blob/main/code/5.%20Heap/data.txt) | Reads student records (ID, name, age, height, weight) into a dynamically allocated array of structs. Implements Min-Heap (based on **age**) and Max-Heap (based on **weight**). Provides menu options for heap creation, insertion, deletion, and querying. |
+| Heap Operations on Student Records | [heap.c](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/blob/main/code/5.%20Heap/heap.c) . [data.txt](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/blob/main/code/5.%20Heap/data.txt) | Reads student records (ID, name, age, height, weight) into a dynamically allocated array of structs. Implements Min-Heap (based on **age**) and Max-Heap (based on **weight**). Provides menu options for heap creation, insertion, deletion, and querying. |
 
 ---
 
