@@ -5,28 +5,11 @@ The goal of this repository is to help learners **revise fundamental C concepts*
 
 ---
 
-## Repository Structure
-
-├── [code/](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/tree/main/code)  
-│
-│ ├── [1. Fundamental C Revisions](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/tree/main/code/1.%20Fundamental%20C%20Revisions)  
-│ ├── [2. Revision of Data Structures](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/tree/main/code/2.%20Revision%20of%20Data%20Structures)  
-│ ├── [3. Fundamentals of Algorithmic Problem Solving](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/tree/main/code/3.%20Fundamentals%20of%20Algorithmic%20Problem%20Solving)  
-│ ├── [4. Divide and Conquer Method](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/tree/main/code/4.%20Divide%20and%20Conquer%20Method)  
-│ └── [5. Heap](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/tree/main/code/5.%20Heap)  
-│
-├── [docs/]()  
-│ ├── [CONTRIBUTING]()  
-│ ├── [Security Policy]()  
-│ └── [CODE OF CONDUCT]()  
-│
-├── [LICENSE]()  
-└── [README]()  
----
-
 ## Folder Overview
 
 ### 1. Fundamental C Revisions
+
+[Code](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/tree/main/code/1.%20Fundamental%20C%20Revisions)
 
 Basic revision programs in C focusing on:
 
@@ -41,6 +24,8 @@ This section ensures that the groundwork of C programming is strong before movin
 
 ### 2. Revision of Data Structures
 
+[Code](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/tree/main/code/2.%20Revision%20of%20Data%20Structures)
+
 Exercises revising fundamental **array operations** and **file I/O**:
 
 - Find second smallest and second largest elements
@@ -52,6 +37,8 @@ Exercises revising fundamental **array operations** and **file I/O**:
 
 ### 3. Fundamentals of Algorithmic Problem Solving
 
+[Code](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/tree/main/code/3.%20Fundamentals%20of%20Algorithmic%20Problem%20Solving)
+
 Programs that apply algorithmic thinking to solve basic problems, introducing:
 
 - Iterative vs recursive solutions
@@ -62,6 +49,8 @@ Programs that apply algorithmic thinking to solve basic problems, introducing:
 ---
 
 ### 4. Divide and Conquer Method
+
+[Code](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/tree/main/code/4.%20Divide%20and%20Conquer%20Method)
 
 Implementation of **sorting algorithms** using the Divide and Conquer paradigm:
 
@@ -77,6 +66,8 @@ Implementation of **sorting algorithms** using the Divide and Conquer paradigm:
 ---
 
 ### 5. Heap
+
+[Code](https://github.com/PrateekRaj8125/Basic-Data-Algorithms/tree/main/code/4.%20Divide%20and%20Conquer%20Method)
 
 Menu-driven program implementing **Min-Heap** and **Max-Heap** operations on student records:
 
