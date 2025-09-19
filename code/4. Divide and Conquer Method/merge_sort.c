@@ -31,6 +31,12 @@ Execution Time: lapse time in nanosecond
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#ifdef _WIN32
+#include <windows.h>
+#else
+#include <unistd.h>
+#include <sys/time.h>
+#endif
 
 long long comparisonCount = 0;
 
@@ -143,19 +149,21 @@ int main() {
 
     n = readFromFile(inFile, arr);
     if (n == 0) return 0;
-
-    printf("Before Sorting:\n");
-    for (int i = 0; i < n; i++)
-        printf("%d ", arr[i]);
-    printf("\n");
-
-    // Measure execution time
-    struct timespec start, end;
-    clock_gettime(CLOCK_MONOTONIC, &start);
-    mergeSort(arr, 0, n - 1);
-    clock_gettime(CLOCK_MONOTONIC, &end);
-
-    long long elapsed_ns = (end.tv_sec - start.tv_sec) * 1000000000LL + (end.tv_nsec - start.tv_nsec);
+        // Measure execution time
+    #ifdef _WIN32
+        LARGE_INTEGER freq, start, end;
+        QueryPerformanceFrequency(&freq);
+        QueryPerformanceCounter(&start);
+        mergeSort(arr, 0, n - 1);
+        QueryPerformanceCounter(&end);
+        long long elapsed_ns = (end.QuadPart - start.QuadPart) * 1000000000LL / freq.QuadPart;
+    #else
+        struct timespec start, end;
+        clock_gettime(CLOCK_MONOTONIC, &start);
+        mergeSort(arr, 0, n - 1);
+        clock_gettime(CLOCK_MONOTONIC, &end);
+        long long elapsed_ns = (end.tv_sec - start.tv_sec) * 1000000000LL + (end.tv_nsec - start.tv_nsec);
+    #endif
 
     printf("After Sorting:\n");
     for (int i = 0; i < n; i++)
